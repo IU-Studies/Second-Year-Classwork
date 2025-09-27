@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linear Regression Predictor</title>
+</head>
+<body>
+    <h2>Enter a value to predict:</h2>
+    <form action="/predict" method="post">
+        <input type="text" name="feature" required>
+        <input type="submit" value="Predict">
+    </form>
+    <h3>{{ prediction }}</h3>
+</body>
+</html>
