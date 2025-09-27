@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ML Model Prediction</title>
+</head>
+<body>
+    <h1>Enter Features</h1>
+    <form method="post">
+        {% for feature in feature_names %}
+            <label>{{ feature }}:</label>
+            <input type="number" step="any" name="{{ feature }}" required><br><br>
+        {% endfor %}
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction is not none %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+
+    {% if shap_image %}
+        <h3>Feature Contribution:</h3>
+        <img src="{{ shap_image }}" alt="SHAP Force Plot">
+    {% endif %}
+</body>
+</html>

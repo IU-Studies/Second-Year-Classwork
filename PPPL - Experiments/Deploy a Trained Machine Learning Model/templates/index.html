@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ML Prediction App</title>
+</head>
+<body>
+    <h1>Enter Input Features</h1>
+    <form method="post">
+        {% for feature in feature_names %}
+            <label>{{ feature }}:</label>
+            <input type="number" name="{{ feature }}" step="any" required><br><br>
+        {% endfor %}
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction is not none %}
+        <h2>Prediction Result: {{ prediction }}</h2>
+    {% endif %}
+
+    {% if shap_image %}
+        <h3>SHAP Feature Contribution:</h3>
+        <img src="{{ shap_image }}" alt="SHAP Plot">
+    {% endif %}
+</body>
+</html>
