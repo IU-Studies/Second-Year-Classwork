@@ -1,14 +1,10 @@
-<h1 align="center">📚Second Year Class Work Repository (SEM 1)</h1>
+<h1 align="center">📚Second Year Class Work Repository</h1>
 
 <p>In this repository, I upload questions covered during both offline and online classes, including assignments and extra homework questions.</p>
 
 <p>The subjects I've covered so far are:</p>
 <ul>
-  <li><b>Data Structures and Algorithms (DSA)</b> 📊🔗📐</li>
-  <li><b>DataBase Management System (DBMS)</b> 🗄️🗃️💾</li>
-  <li><b>Assembly Language Programming (ALP)</b> 🖥️⚙️🔧</li>
-  <li><b>Advanced Python Programming (APP)</b> 🐍</li>
-  <li><b>Processor Architecture and Interfacing (PAI)</b> 🤖⚡📡📟</li>
+<ul> <li><b>Data Structures and Algorithms (DSA)</b> 📊🔗📐</li> <li><b>Database Management System (DBMS)</b> 🗄️🗃️💾</li> <li><b>Assembly Language Programming (ALP)</b> 🖥️⚙️🔧</li> <li><b>Advanced Python Programming (APP)</b> 🐍💡</li> <li><b>Processor Architecture and Interfacing (PAI)</b> 🤖⚡📡📟</li> <li><b>Professional Python Programming Lab (PPPL)</b> 🧪🐍💻</li> <li><b>Computer Networks (CN)</b> 🌐📶🧷</li> </ul>
 </ul>
 
 ---
